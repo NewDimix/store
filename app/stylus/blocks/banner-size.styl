@@ -1,0 +1,44 @@
+.banner-size
+	background url(../img/banner1__back.png) 50% no-repeat
+	background-size cover
+	height 295px
+	position relative
+	&__desc
+		display inline-block
+		border 5px solid white
+		width 70%
+		margin 0 15%
+		padding 25px 0
+		position absolute
+		top 50%
+		transform translateY(-50%)
+		text-align center
+		box-sizing border-box
+		@media (min-width 480px)
+			width 50%
+			margin 0 25%
+		@media (min-width 768px)
+			width 60%
+			margin 0 20%
+		@media (min-width 992px)
+			width 50%
+			margin 0 25%
+	&__text
+		color white
+		text-transform uppercase
+		letter-spacing 2px
+		font-size 14px
+		margin 0
+		&_bold
+			margin 0
+			font-size 18px
+			font-weight 700
+			letter-spacing 3px
+		&_big
+			margin 15px 0
+			font-size 133px
+			font-weight 800
+			line-height 110px
+			> span
+				position relative
+				top -18px

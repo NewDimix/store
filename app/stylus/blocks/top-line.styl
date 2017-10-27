@@ -1,0 +1,49 @@
+.top-line
+	padding 10px 0
+	background-color #272727
+	color white
+	font-size 0
+	@media (min-width 768px)
+		padding 17px 0
+	&__message
+		display none
+		width 50%
+		font-size 12px
+		@media (min-width 768px)
+			display inline-block
+	&__actions
+		text-align center
+		font-size 14px
+		vertical-align top
+		clearfix()
+		@media (min-width 768px)
+			display inline-block
+			width 50%
+			text-align right
+		> *
+			color white
+			text-decoration none
+			@media (min-width 768px)
+				width auto
+	&__call
+		display block
+		margin-bottom 10px
+		padding-left 0
+		@media (min-width 480px)
+			padding-left 20px
+			margin-bottom 0
+			display inline-block
+			float left
+			background url(../img/icon/phone.svg) no-repeat
+		@media (min-width 768px)
+			display inline-block
+			float none
+			margin-right 50px
+	&__login
+		display inline-block
+		font-weight 700
+		padding-left 20px
+		margin-bottom 0
+		background url(../img/icon/user.svg) no-repeat
+		@media (min-width 480px)
+			float right

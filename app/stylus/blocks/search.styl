@@ -1,0 +1,38 @@
+.search
+	font-size 0
+	&__input
+		max-width 400px
+		width 85%
+		height 35px
+		font-size 14px
+		color #454545
+		border 1px solid #ededed
+		border-right none
+		outline none
+		padding 15px 25px
+		background-color #f5f5f5
+		box-sizing border-box
+		vertical-align top
+		@media (min-width 768px)
+			height 50px
+			max-width 400px
+			width 85%
+		@media (min-width 992px)
+			max-width 350px
+		@media (min-width 1200px)
+			max-width 400px
+	&__button
+		width 35px
+		height 35px
+		border none
+		outline none
+		background #2e1153 url(../img/icon/magnifier.svg) center no-repeat
+		background-size 70%
+		transition all .2s ease
+		@media (min-width 768px)
+			width 50px
+			height 50px
+		&:hover
+			cursor pointer
+		&:active
+			background-size 60%
